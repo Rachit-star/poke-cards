@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: dimgray;
+}
+
+.container{
+    height: 50vh;
+    width: 20vw;
+    
+    
+    
+}
+
+.card{
+    min-height: 100%;
+    width: 98%;
+    background-color: red;
+    background: radial-gradient(circle at 50% 0%,orange 38.5%,#ffffff 36%);
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 200px;
+    align-self: center;
+    margin-bottom: -20px;
+
+}
+
+.card h5{
+    padding: 10px;
+    background-color: white;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1;
+    position: relative;
+    left: 75%;
+    top: 3%;
+
+}
+
+.name{
+    align-self: center;
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 50px;
+
+}
+
+.type{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+.stats{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.stat-1{
+    display: flex;
+    flex-direction: column;
+
+    
+    
+
+    
+}
+
+.stat-1 p{
+    font-weight: 200;
+    color: rgb(82, 80, 80);
+    font-weight: 300;
+}
+
+button{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 25px;
+    width: 250px;
+    position: relative;
+    top: 50px;
+    left: 60px;
+    cursor: pointer;
+    font-size: 30px;
+
+}
